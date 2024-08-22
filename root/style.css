@@ -87,6 +87,7 @@ form input{
     border:2px solid var(--input-color);
     border-left: none;
     background-color: var(--input-color);
+    color: var(--text-color);
     transition: 150ms ease;
 }
 form input:hover{
