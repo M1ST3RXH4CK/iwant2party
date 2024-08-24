@@ -58,6 +58,7 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     align-self: center;
 }
@@ -98,13 +99,13 @@ form input:hover{
 }
 form input:focus{
     outline: none;
-    border-color:var(--text-color);
+    border-color: #7fffd4;
 }
 div:has(input:focus) > label{
     background-color: #7fffd4;
 }
 form input::placeholder{
-    color: var(--input-color);
+    color: #adaca8;
 }
 form input::placeholder:focus{
     color: #65c3a4;
