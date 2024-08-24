@@ -19,6 +19,9 @@ body{
     min-height: 100vh;
     background-color: var(--base-color);
 }
+.links{
+    align-content:flex-end;
+}
 a{
     text-decoration: none;
     color:var(--accent-color);
@@ -101,6 +104,9 @@ div:has(input:focus) > label{
     background-color: #7fffd4;
 }
 form input::placeholder{
+    color: var(--input-color);
+}
+form input::placeholder:focus{
     color: #65c3a4;
 }
 form button{
@@ -121,6 +127,6 @@ form button:hover{
 }
 form button:focus{
     outline: none;
-    background-color: var(--input-color);
+    border: var(--input-color);
     color: var(--accent-color);
 }
