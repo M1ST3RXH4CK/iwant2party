@@ -20,7 +20,7 @@ body{
     background-color: var(--base-color);
     align-self: flex-start;
 }
-.links{
+div .links{
     flex-direction: row;
     align-self: flex-end;
 }
@@ -132,4 +132,13 @@ form button:focus{
     outline: none;
     border: var(--input-color);
     color: var(--accent-color);
+}
+form div .incorrect label{
+    background-color: #f06272;
+}
+form div .incorrect input{
+    border-color: #f06272;
+}
+#error_message{
+    color: #f06272;
 }
