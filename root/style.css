@@ -18,9 +18,11 @@ html{
 body{
     min-height: 100vh;
     background-color: var(--base-color);
+    align-self: flex-start;
 }
 .links{
-    align-content:flex-end;
+    flex-direction: row;
+    align-self: flex-end;
 }
 a{
     text-decoration: none;
